@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+/*  colors used    #f9fbfe, #e4e7eb, #4c63b6, #e6f6ff, #096f92 */
+
+body {
+    margin: 0;
+}
+
+.home-container {
+    background-color: #f9fbfe;
+    height: 100vh;
+    font-family: Roboto;
+    padding-top: 20px;
+}
+
+.home-content-container {
+    width: 90%;
+    margin: auto;
+    /*     border: 2px solid red; 
+ */
+}
+
+
+.todos-header {
+    font-size: 48px;
+    font-weight: 500;
+    text-align: center;
+    font-family: "Roboto";
+    margin: 20px 0px;
+}
+
+.create-task-header {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.task-part {
+    font-family: "Roboto";
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.user-input {
+    width: 90%;
+    border: 1px solid #e4e7eb;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding: 15px;
+    background-color: white;
+}
+
+
+.button {
+    color: white;
+    background-color: #4c63b6;
+    font-family: "Roboto";
+    font-size: 16px;
+    margin: 20px 0px 50px 0px;
+    padding: 5px 20px;
+    border-width: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+.added-todo-container {
+    display: flex;
+    margin-top: 15px;
+}
+
+.checkbox {
+    width: 20px;
+    height: 20px;
+    margin: 15px 15px 6px 6px;
+    cursor: pointer;
+}
+
+
+.todo-topic-span-icon-container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 16px;
+    /*     border: 2px solid blue; */
+    border-left: 6px solid #096f92;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    background-color: #e6f6ff;
+}
+
+.span-icon-class {
+    display: none;
+}
+
+.todo-span-class {
+    font-size: 18px;
+}
+
+.delete-icon-img {
+    width: 22px;
+    cursor: pointer;
+}
